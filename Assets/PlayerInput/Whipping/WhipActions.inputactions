@@ -1,0 +1,54 @@
+{
+    "name": "WhipActions",
+    "maps": [
+        {
+            "name": "Whipping",
+            "id": "72e74132-d952-44c9-8673-97255708ce55",
+            "actions": [
+                {
+                    "name": "Whip",
+                    "type": "Button",
+                    "id": "18e77ef8-69ce-4110-b5cd-8f957fefb33b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WhipTarget",
+                    "type": "Value",
+                    "id": "57c648af-5881-4d2a-bc59-c3abf38a3d91",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0438e07e-b9fb-4dd8-9c55-c281d08a3003",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Whip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b897230-4c96-4c88-87bf-3ca4d74b279e",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WhipTarget",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

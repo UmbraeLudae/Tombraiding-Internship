@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f55978ebca6a204a8fa2949da2f34b4, type: 3}
+  m_Name: LoremIpsumPage
+  m_EditorClassIdentifier: 
+  tmpNoteText: "<u>Handwritten Notes</u>\r\n\r\nLorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Cras condimentum nibh ex, eu maximus ligula accumsan nec.\r\n\r\n<u>Notes</u>\r\n\u2022
+    Aliquam euismod lectus vel tortor blandit, non pharetra ex sollicitudin.\r\n\u2022
+    <s>Nulla et felis aliquet, fermentum velit sit amet, rhoncus nunc. </s>\r\n\u2022
+    Nullam ac lacus dapibus magna porttitor elementum.\r\n\u2022 Integer sagittis
+    aliquet nunc, et volutpat elit luctus sit amet.\r\n\u2022 Maecenas euismod dictum
+    libero, in finibus diam vulputate <s>non</s>."

@@ -1,0 +1,76 @@
+{
+    "name": "NotebookInput",
+    "maps": [
+        {
+            "name": "Notebook",
+            "id": "08f245da-4af6-4672-8d4e-37ada795863e",
+            "actions": [
+                {
+                    "name": "Open/Close",
+                    "type": "Button",
+                    "id": "c46f758d-ed97-4aa0-8ae7-9b3e95c64aa4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CyclePages",
+                    "type": "Value",
+                    "id": "e0da5e49-b70f-433a-983b-c49319407084",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e4e0e2b4-55a1-4d34-9c9f-ce7a31ef6380",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open/Close",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "fbf4adce-e670-42ad-8f7d-8430ce478ca3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CyclePages",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6bd1e40a-2345-4773-9636-f574577877ea",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CyclePages",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0aa7119d-5230-414d-ab0f-d047bab97c75",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CyclePages",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
