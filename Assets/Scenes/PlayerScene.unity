@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.007208761, g: 0.009409405, b: 0.021972306, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -200,6 +199,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -839,6 +839,10 @@ PrefabInstance:
     - target: {fileID: 1892420421684328870, guid: 41f8ef3d07a31b842bb29717f2ed3e7c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892420421810449696, guid: 41f8ef3d07a31b842bb29717f2ed3e7c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.999868
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41f8ef3d07a31b842bb29717f2ed3e7c, type: 3}

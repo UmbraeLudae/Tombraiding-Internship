@@ -63,11 +63,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   skyIntensityMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   exposure:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -3.5
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -91,16 +91,16 @@ MonoBehaviour:
     m_Value: 0
   top:
     m_OverrideState: 1
-    m_Value: {r: 0.011111112, g: 0.013846357, b: 0.035, a: 1}
+    m_Value: {r: 0.45754716, g: 0.27755055, b: 0.21366589, a: 1}
   middle:
     m_OverrideState: 1
-    m_Value: {r: 0.011764706, g: 0.015686275, b: 0.03529412, a: 1}
+    m_Value: {r: 0.50980395, g: 0.26666668, b: 0.20392157, a: 1}
   bottom:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_Value: {r: 0.2924528, g: 0.13612866, b: 0.08690815, a: 1}
   gradientDiffusion:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
 --- !u!114 &-1084211090781835024
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -149,7 +149,7 @@ MonoBehaviour:
     m_Value: 50
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 30.4
+    m_Value: 10
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -201,16 +201,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b145d2b9ee1ac4f846968484e7485a, type: 3}
   m_Name: ContactShadows
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   quality:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 2
   enable:
     m_OverrideState: 1
     m_Value: 1
   length:
-    m_OverrideState: 0
-    m_Value: 0.15
+    m_OverrideState: 1
+    m_Value: 0.125
   opacity:
     m_OverrideState: 0
     m_Value: 1
@@ -231,13 +231,13 @@ MonoBehaviour:
     m_Value: 0
   rayBias:
     m_OverrideState: 0
-    m_Value: 0.2
+    m_Value: 0.348
   thicknessScale:
     m_OverrideState: 0
-    m_Value: 0.15
+    m_Value: 0.03
   m_SampleCount:
     m_OverrideState: 0
-    m_Value: 10
+    m_Value: 16
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,10 +510,10 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.84
   directLightingStrength:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.775
   radius:
     m_OverrideState: 1
     m_Value: 1.5
@@ -534,6 +534,9 @@ MonoBehaviour:
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
+  specularOcclusion:
+    m_OverrideState: 0
+    m_Value: 0.5
   occluderMotionRejection:
     m_OverrideState: 0
     m_Value: 1
@@ -620,9 +623,10 @@ MonoBehaviour:
   m_Name: HDShadowSettings
   m_EditorClassIdentifier: 
   active: 1
+  interCascadeBorders: 1
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 60
   directionalTransmissionMultiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -640,10 +644,10 @@ MonoBehaviour:
     m_Value: 0.3
   cascadeShadowBorder0:
     m_OverrideState: 1
-    m_Value: 0.13333334
+    m_Value: 0.06905067
   cascadeShadowBorder1:
     m_OverrideState: 1
-    m_Value: 0.06666666
+    m_Value: 0.05086228
   cascadeShadowBorder2:
     m_OverrideState: 0
     m_Value: 0
